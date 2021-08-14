@@ -1,0 +1,147 @@
+.section-center {
+  width: 90vw;
+  margin: 1rem auto;
+  max-width: 60rem;
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  padding: 2rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.college-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s linear;
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
+
+.college-item:hover {
+  color: hsl(0, 0%, 92%);
+  background: hsl(210, 36%, 96%);
+}
+
+.edit-btn,
+.delete-btn,.show-btn,.student-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin: 0 0.15rem;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.show-btn {
+  color: hsl(205, 63%, 48%);
+}
+.show-btn:hover {
+  color: hsl(205, 77%, 27%);
+}
+.edit-btn {
+  color: hsl(125, 71%, 66%);
+}
+.edit-btn:hover {
+  color: hsl(125, 67%, 44%);
+}
+.delete-btn {
+  color: hsl(360, 71%, 66%);
+}
+.delete-btn:hover {
+  color: hsl(360, 67%, 44%);
+}
+.student-btn {
+  color: rgb(230, 136, 107);
+}
+.student-btn:hover {
+  color: rgb(187, 72, 37);
+}
+.btn-span{
+    color: rgb(67, 111, 150);
+}
+.title {
+  margin-bottom: 0;
+  color: hsl(209, 61%, 16%);
+  letter-spacing: 2px;
+  font-size: 20px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.branch{
+  margin: 4px 0 0 0;
+  padding: 0;
+  color: hsl(209, 61%, 16%);
+  letter-spacing: 2px;
+  font-size: 16px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.college-item:hover {
+  color: hsl(210, 22%, 49%);
+  background: hsl(210, 36%, 96%);
+}
+.college-item:hover .title {
+  color: hsl(210, 22%, 49%);
+}
+label {
+  display: inline-block;
+}​
+.content{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 767px) {
+    .college-item{
+        flex-direction: column;
+    }
+    .section-center{
+        padding: 0;
+        max-width: 65rem;
+    }
+  }
+  .btn {
+  background: hsl(205, 78%, 60%);
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+  color: var(--clr-white);
+  letter-spacing: 0.1rem;
+  border-color: transparent;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  color: #fff;
+}
